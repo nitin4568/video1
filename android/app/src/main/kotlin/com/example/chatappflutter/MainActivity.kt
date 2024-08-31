@@ -1,7 +1,11 @@
 package com.example.chatappflutter
 
-import io.flutter.embedding.android.FlutterActivity
 
+// MainActivity serves as the entry point for the Flutter application on Android.
 class MainActivity : FlutterActivity() {
-    // You can override methods here if needed
+    // You can override methods here if you need to customize the behavior.
+}
+
+open class FlutterActivity {
+
 }
